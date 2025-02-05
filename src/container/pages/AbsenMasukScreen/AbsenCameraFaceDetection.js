@@ -149,7 +149,7 @@ const AbsenCameraFaceDetection = ({navigation}) => {
   const takePicture = debounce(async (camera, tries = 5) => {
     if (!networkStatus.isInternetReachable || !networkStatus.isConnected) {
       Toast.showWithGravity(
-        'Presensi error Network unreachable',
+        'Presensi error Network unreachableeeee',
         Toast.SHORT,
         Toast.CENTER,
       );
